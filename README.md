@@ -2,7 +2,7 @@
 
 Forecasting **monthly total rainfall** and **monthly highest daily rainfall** for the next 12 months (Jul 2020 to Jun 2021) from 38 years of Changi Climate Station data, using seasonal time-series models compared against strong baselines.
 
-> **Live demo:** _add your Streamlit app link here after deployment_
+> **Live demo:** (https://rainfallforecasting-7emj3dbptukfqxddajtnzu.streamlit.app/)
 
 ![Final forecast](images/final_forecast.png)
 
