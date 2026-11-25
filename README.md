@@ -4,7 +4,7 @@ Forecasting **monthly total rainfall** and **monthly highest daily rainfall** fo
 
 > **Live demo:** (https://rainfallforecasting-7emj3dbptukfqxddajtnzu.streamlit.app/)
 
-![Final forecast](images/final_forecast.png)
+![Final forecast](rainfall-forecasting-singapore/images/final_forecast.png)
 
 ## Highlights
 
@@ -36,7 +36,7 @@ Source: National Environment Agency (NEA) via [data.gov.sg](https://data.gov.sg)
 - **No strong long-term trend.** Annual rainfall averages about 2,118 mm. Rain days per year rose modestly, from about 161 (1982 to 1991) to about 173 (2010 to 2019).
 - **Correlations.** Total rainfall vs highest daily rainfall is 0.80, and vs number of rain days is 0.70.
 
-![Average rainfall by month](images/eda_monthly_avg.png)
+![Average rainfall by month](rainfall-forecasting-singapore/images/eda_monthly_avg.png)
 
 ## Method
 
@@ -98,8 +98,8 @@ Lower is better. Best model per table in bold. MAE and RMSE are in mm.
 - **Prophet did not beat the simple baseline** on the hold-out year, so it was dropped from rolling validation. A more complex model is not automatically better.
 - **Seasonal naive is the weakest**, because copying last year's noise adds error.
 
-![Total rainfall test year](images/total_test.png)
-![Highest daily rainfall test year](images/max_test.png)
+![Total rainfall test year](rainfall-forecasting-singapore/images/total_test.png)
+![Highest daily rainfall test year](rainfall-forecasting-singapore/images/max_test.png)
 
 ## Forecast: Jul 2020 to Jun 2021
 
